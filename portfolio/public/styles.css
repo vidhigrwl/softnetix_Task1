@@ -1,0 +1,228 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container2 {
+    margin-left: 350px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center; 
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: auto;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0; /* Adjusted padding for better spacing */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links {
+    list-style-type: none;
+    text-align: center;
+    margin: 30px; /* Added margin reset */
+    padding: 0; /* Added padding reset */
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    padding-left: 30px;
+}
+
+.nav-links li a:hover {
+    color: #FF5733;
+}
+
+.home {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-photo img {
+    width: 200px; /* Adjust size as needed */
+    height: 200px; /* Adjust size as needed */
+    border-radius: 50%; /* Make the image circular */
+    margin-right: 20px; /* Add space between image and text */
+}
+
+.intro {
+    text-align: left; /* Align text to the left within its container */
+}
+
+.intro h1 {
+    font-size: 2.5em; /* Adjust font size of headline */
+    margin-bottom: 20px; /* Add space below the headline */
+}
+
+.intro p {
+    font-size: 1.2em; /* Adjust font size of paragraph */
+    line-height: 1.6; /* Set line height for better readability */
+}
+
+/* About Me Section */
+.about {
+    padding: 150px 0;
+    background-color: #090808;
+    text-align: center;
+    color: #fff;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bio {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Projects Section */
+.projects {
+    padding: 50px 30px;
+    text-align: center;
+    height:500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+    background-color:rgb(222, 226, 231);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for hover effect */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Consistent font */
+}
+
+.project:hover{
+    background-color: #767a7f;
+}
+
+.project h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project p {
+    margin-bottom: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+
+/* Contact Form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px; /* Increased width for more space */
+    margin: 40px auto; /* Centered with spacing above and below */
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    border: 1px solid #e0e0e0; /* Light border for subtle definition */
+
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean, modern font */
+}
+
+label {
+    flex: 1; /* Allow label to take up necessary space */
+    color: #555; /* Slightly lighter color for labels */
+    font-weight: 600; /* Semi-bold for better visibility */
+    font-size: 16px; /* Readable font size */
+}
+
+input, textarea {
+    flex: 2; /* Allow input/textarea to take up remaining space */
+    padding: 15px; /* Comfortable padding */
+    border: 1px solid #ccc; /* Softer border color */
+    border-radius: 6px; /* Rounded corners */
+    font-size: 16px; /* Readable font size */
+    box-sizing: border-box; /* Include padding and border in element's width/height */
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing */
+    min-height: 100px; /* Minimum height for the textarea */
+    
+}
+.form-group {
+    display: flex;
+    margin-bottom: 20px; /* Consistent spacing */
+}
+form>button {
+    padding: 12px 25px; /* More spacious button */
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff; /* Professional blue */
+    color: #fff;
+    margin-left: 190px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for hover effect */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Consistent font */
+}
+form>button:hover {
+    background-color: #0056b3; /* Darker blue for hover state */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+#response-message {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
