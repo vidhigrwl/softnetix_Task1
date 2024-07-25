@@ -77,7 +77,10 @@ If you find any issues or have suggestions for improvements, feel free to open a
 This project is licensed under the MIT License.
 
 
-# Recipe Sharing Platform
+
+
+
+# 2. Recipe Sharing Platform
 
 A web application where users can upload, browse, and search for recipes. Built with React for the frontend and Node.js with Express for the backend, and MongoDB for data storage.
 
